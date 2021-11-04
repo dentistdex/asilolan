@@ -3,6 +3,14 @@ import java.util.Scanner;
 
 public class ifelse {
         public static void main(String[] args) {
+            boolean isAlien = false;
+            if (isAlien == false) {
+                System.out.println("İt is not an alien!");
+                System.out.println("And I am scared of aliens");
+            }
+
+
+
          Scanner s = new Scanner(System.in);
             System.out.println("Lütfen Notu Giriniz!");
             int not =s.nextInt();
@@ -19,6 +27,8 @@ public class ifelse {
             else  {
                 System.out.println("NOTUNUZ = FF");
             }
+
+
 
         }
         }
