@@ -1,21 +1,18 @@
 public class Methods {
     public static void main(String[] args) {
+
         boolean gameOver = true ;
         int score = 800 ;
         int levelCopmleted = 5 ;
         int bonus = 100 ;
-
         calculateScore(gameOver,score,levelCopmleted,bonus);
 
         score = 10000 ;
         levelCopmleted = 8 ;
         bonus = 200 ;
-
-
         calculateScore(gameOver,score,levelCopmleted,bonus);
 
         gameOver = false ;
-
         calculateScore(gameOver,score,levelCopmleted,bonus);
     }
 
@@ -28,7 +25,10 @@ public class Methods {
             return finalScore;}
 
         else {
-            return -1;
+            boolean gameOver = false ;
+                System.out.println("GAME FAİLED !!!");
+            return -1 ;
+
         }
 
     }
