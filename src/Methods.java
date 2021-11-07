@@ -28,10 +28,6 @@ public class Methods {
             boolean gameOver = false ;
                 System.out.println("GAME FAİLED !!!");
             return -1 ;
-
         }
-
     }
-
-
 }
