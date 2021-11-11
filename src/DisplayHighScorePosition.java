@@ -22,19 +22,21 @@ public class DisplayHighScorePosition {
 
     public static int sıra (int playerScore) {
 
+        int highScorePosition = 4;
 
-        if  (playerScore >= 1000) {
-            return 1;
+        if (playerScore > 1000) {
+            highScorePosition = 1;
         }
-        else if (playerScore >= 500 && playerScore < 1000) {
-            return 2;
+        else if (playerScore > 500) {
+            highScorePosition = 2;
         }
-        else if (playerScore >= 100 && playerScore < 500) {
-            return 3;
+        else if (playerScore > 100 ) {
+            highScorePosition = 3;
         }
-        else {
-            return 4;
-        }
+        return highScorePosition ;
+
 
     }
+
+
 }
