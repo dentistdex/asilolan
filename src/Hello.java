@@ -18,7 +18,7 @@ public class Hello {
 
                 System.out.println ("2 + 1 = " + result) ;
 
-
+        printDayOfWeek.printDayOfTheWeek(5);
 
 
         }
